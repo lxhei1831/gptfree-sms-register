@@ -1,0 +1,49 @@
+{
+  // 公开模板：复制本文件为 config.json，填入你自己的信息。
+  // 注意：config.json 必须是严格 JSON，不能保留 // 注释；本文件只用于说明。
+
+  // HeroSMS API Key，必填。不要上传真实值。
+  "heroSmsApiKey": "",
+
+  // HeroSMS 服务代码，默认 dr。
+  "heroSmsService": "dr",
+
+  // 默认国家 ID。英国=16，巴西=73，智利=151，印度尼西亚=6。
+  "heroSmsCountry": 16,
+
+  // 是否启动时交互选择国家/运营商。服务器无人值守可改为 false。
+  "heroSmsPromptCountrySelection": true,
+  "heroSmsPromptOperatorSelection": true,
+  "heroSmsCountryTopN": 10,
+
+  // 默认手机号国家 ISO 代码，例如 GB/BR/CL/ID。
+  "phoneCountryCode": "GB",
+
+  // 邮箱服务配置。不要上传真实管理邮箱、密码、token、域名。
+  "mailBaseUrl": "",
+  "mailProvider": "cloud-mail",
+  "mailAdminEmail": "",
+  "mailAdminPassword": "",
+  "mailAdminToken": "",
+  "mailUserType": 1,
+  "mailSitePassword": "",
+  "mailDomain": "",
+  "mailDomains": [],
+
+  // 代理配置，可选。不要上传代理账号密码。
+  "proxyHost": "",
+  "proxyPort": 0,
+  "proxyUsername": "",
+  "proxyPassword": "",
+
+  // token 输出目录。公开仓库只保留空目录，不要上传生成的 token JSON。
+  "tokenOutputDir": "tokens",
+  "tokenOutputDirs": ["tokens"],
+  "domainTokenLimit": 60,
+
+  // 浏览器配置。
+  "useChrome": true,
+  "chromePath": "google-chrome-stable",
+  "browserWindowPosition": "",
+  "browserWindowSize": ""
+}

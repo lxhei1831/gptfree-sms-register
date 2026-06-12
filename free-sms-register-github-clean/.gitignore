@@ -1,0 +1,23 @@
+
+
+# 运行时敏感数据/产物
+tokens/*
+!tokens/.gitkeep
+logs/*
+!logs/.gitkeep
+accounts.json
+username.json
+shibai.json
+config.local.json
+config.server.json
+config.*.bak*
+*.bak*
+*.log
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+.env
+.env.*
+node_modules/

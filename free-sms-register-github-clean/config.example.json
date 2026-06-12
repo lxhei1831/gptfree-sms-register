@@ -1,0 +1,58 @@
+{
+  "_说明": "公开示例配置：请复制为 config.json 后填写自己的服务信息；不要把真实 key、邮箱账号密码、代理密码提交到 GitHub。JSON 不支持注释，说明字段仅用于中文提示。",
+  "heroSmsApiKey": "",
+  "heroSmsService": "dr",
+  "heroSmsCountry": 16,
+  "heroSmsPromptCountrySelection": true,
+  "heroSmsPromptOperatorSelection": true,
+  "heroSmsCountryTopN": 10,
+  "phoneCountryCode": "GB",
+  "phoneCountries": [
+    {
+      "isoCode": "GB",
+      "dialCode": "44",
+      "name": "英国",
+      "heroSmsCountry": 16
+    },
+    {
+      "isoCode": "BR",
+      "dialCode": "55",
+      "name": "巴西",
+      "heroSmsCountry": 73
+    },
+    {
+      "isoCode": "CL",
+      "dialCode": "56",
+      "name": "智利",
+      "heroSmsCountry": 151
+    },
+    {
+      "isoCode": "ID",
+      "dialCode": "62",
+      "name": "印度尼西亚",
+      "heroSmsCountry": 6
+    }
+  ],
+  "mailBaseUrl": "",
+  "mailProvider": "cloud-mail",
+  "mailAdminEmail": "",
+  "mailAdminPassword": "",
+  "mailAdminToken": "",
+  "mailUserType": 1,
+  "mailSitePassword": "",
+  "mailDomain": "",
+  "mailDomains": [],
+  "proxyHost": "",
+  "proxyPort": 0,
+  "proxyUsername": "",
+  "proxyPassword": "",
+  "tokenOutputDir": "tokens",
+  "tokenOutputDirs": [
+    "tokens"
+  ],
+  "domainTokenLimit": 60,
+  "useChrome": true,
+  "chromePath": "google-chrome-stable",
+  "browserWindowPosition": "",
+  "browserWindowSize": ""
+}
